@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Website Layout</title>
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#"><img src="img/logo6.jpg"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Services</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Team</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Connect</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<div class="container">
+	<div class="left-column">
+		<img src="desk.png" alt="A beautiful scenery">
+	</div>
+	<div class="right-column"><h2>INQUIRY NOW </h2>
+		<form action="#">
+			<label for="name">Your Name:</label><br>
+			<input type="text" id="name" name="name"><br>
+			<label for="email">Your Email:</label><br>
+			<input type="email" id="email" name="email"><br>
+			<label for="phone">Your Phone:</label><br>
+			<input type="phone" id="phone" name="phone"><br>
+			<label for="message">Your Message:</label><br>
+			<textarea id="message" name="message"></textarea><br>
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+</div>
+
+<ul id="accordion">
+    <li>
+        <label for="first">What is accordion?<span>&#x3e;</span></label>
+        <input type="radio" name="accordion" id="first" >
+        <div class="content">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis saepe voluptates molestiae magnam placeat est, laudantium harum similique accusantium error!</p>
+        </div>
+    </li>
+    <li>
+        <label for="second">How to create?<span>&#x3e;</span></label>
+        <input type="radio" name="accordion" id="second">
+        <div class="content">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis saepe voluptates molestiae magnam placeat est, laudantium harum similique accusantium error!</p>
+        </div>
+    </li>
+    <li>
+        <label for="third">What is accordion?<span>&#x3e;</span></label>
+        <input type="radio" name="accordion" id="third">
+        <div class="content">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis saepe voluptates molestiae magnam placeat est, laudantium harum similique accusantium error!</p>
+        </div>
+    </li>
+</ul>
+
+
+
+<div class="row padding">
+	<div class="col-lg-6">
+		<img src="img/desk.png" class="img-fluid">
+	</div>
+	<div class="col-md-12 col-lg-6">
+		<h2>If you build it...</h2>
+		<p>The columns will automatically stack on each other when the screen is less than 576px wide.</p>
+		<p>Resize the browser window to see the effect. Responsive web design has become more important as the amount of mobile traffic now accounts for more than half of total internet traffic.</p>
+		<p>It can also display the web page differently depending on the screen size or viewing device.</p>
+		<br>
+		<a href="#" class="btn btn-primary">Learn More</a>
+	</div>
+</div>
+
+
+<!-- Carousel Section -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img/background.png" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/background2.png" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/background3.png" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+
+<div class="col-12">
+	<h1 class="display-4">Meet the Team</h1>
+</div>
+
+<!--- Cards -->
+<div class="row padding">
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="img/team1.png">
+			<div class="card-body">
+				<h4 class="card-title">John Doe</h4>
+				<p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
+				<a href="#" class="btn btn-outline-secondary">See Profile</a>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="img/team2.png">
+			<div class="card-body">
+				<h4 class="card-title">Mary Jo</h4>
+				<p class="card-text">Mary is a designer with almost 10 years of digital design experience.</p>
+				<a href="#" class="btn btn-outline-secondary">See Profile</a>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="img/team3.png">
+			<div class="card-body">
+				<h4 class="card-title">Phil Ho</h4>
+				<p class="card-text">Phil is a developer with over 5 years of web development experience.</p>
+				<a href="#" class="btn btn-outline-secondary">See Profile</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--- Footer -->
+<footer>
+	<div class="row text-center">
+		<div class="col-md-4 pt-0">
+			<div class="footer-image">
+				<img src="img/logo6.jpg">
+			</div>
+			<hr class="light">
+			<p>555-555-5555</p>
+			<p>email@hhemail.com</p>
+			<p>69 Street Name</p>
+			<p>City, State, 888</p>
+		</div>
+		<div class="col-md-4">
+			<hr class="light">
+			<h5>Our hours</h5>
+			<hr class="light">
+			<p>Monday: 9am - 5pm</p>
+			<p>Saturday: 10am - 4pm</p>
+			<p>Sunday: Closed</p>
+		</div>
+		<div class="col-md-4">
+			<hr class="light">
+			<h5>Service Area</h5>
+			<hr class="light">
+			<p>City, State, 900</p>
+			<p>City, State, 800</p>
+			<p>City, State, 700</p>
+			<p>City, State, 600</p>
+		</div>
+		<div class="col-12">
+			<hr class="light-100">
+			<h5>&copy; Website Learning</h5>
+		</div>
+	</div>
+</footer>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+
+</body>
+</html>
